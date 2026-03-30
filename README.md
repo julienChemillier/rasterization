@@ -20,30 +20,5 @@ En revanche, du multi-threading est implémenté pour prendre partie des différ
 ## Utilisation
 L'implémentation d'un makefile permet de lancer le projet avec la commande suivante (compilation + lancement de l'exécutable):
 > make && ./main
-La fenêtre de la simulation se lance donc et permet
 
 
-
-
-
-
-
-## Bibliographie
-| Nom de la source | Type de source | Utilisation effectuée | Lien |
-| --- | --- | --- | --- | --- |
-| Tutoriel de Rasterization logicielle | Vidéo Youtube | Vidéo youtube qui m'a servi de guide pour mettre en place la rasterization | https://www.youtube.com/watch?v=yyJ-hdISgnw |
-| Image Resampling Algorithms | Article Medium | Article présentant 2 types d'algorithmes d'image upscalling utilisés: Nearest Neighbour, Bilinear Interpolation | https://medium.com/@chathuragunasekera/image-resampling-algorithms-for-pixel-manipulation-bee65dda1488 |
-| 
-
-Faire une fenêtre
-Avoir un premier objet affiché
-Pouvoir déplacer la caméra
-Avoir un rescaling de la windows
-    - DONE -> (https://medium.com/@chathuragunasekera/image-resampling-algorithms-for-pixel-manipulation-bee65dda1488)
-    - edge-directed image scaling (https://nlpr.ia.ac.cn/2012papers/gjkw/gk46.pdf)
-    - plus développé (https://blog.codinghorror.com/better-image-resizing/)
-    - Pipeline efficace CPU : Bicubic interpolation, Unsharp masking (renforcement des contours), Edge-aware sharpening (type filtre bilatéral)
-Proposer de l'anti-aliasing (https://en.wikipedia.org/wiki/Lanczos_resampling)
-
-
-https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/
